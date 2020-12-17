@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="jquery-3.5.1.js" charset="utf-8"></script>
+    <script>
+      $(document).ready(function(){
+        $("#btn1").click(function(){
+          $("#test1").text("<b>Hello World</b>");
+        });
+        $("#btn2").click(function(){
+          $("#test2").html("<b>Hello World!</b>");
+        });
+        $("#btn3").click(function(){
+          $("#test3").val("Polinema");
+        });
+      });
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <p id="test1">Paragraf 1</p>
+    <p id="test2">Paragraf yang lain</p>
+    <p>namaku : <input type="text" id="test3"></p>
+
+    <button id="btn1">Get Text</button>
+    <button id="btn2">Get HTML</button>
+    <button id="btn3">Get Value</button>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="jquery-3.5.1.js" charset="utf-8"></script>
+    <script>
+      $(document).ready(function(){
+        $("button").click(function(){
+          $("#box").load("/dasarWeb/praktik_jquery/test-content.html");
+        });
+      });
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <div id="box">
+      <h2>klik tombol untuk tampil</h2>
+    </div>
+    <button type="button" >klik saya</button>
+  </body>
+</html>

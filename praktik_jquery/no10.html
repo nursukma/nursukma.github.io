@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="jquery-3.5.1.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styleanimate.css">
+    <script>
+      $(document).ready(function(){
+        $("button").click(function(){
+          $(".box")
+          .animate({left: "300px"})
+          .animate({height: "300px"})
+          .animate({marginLeft: "150px"})
+          .animate({borderWidth: "10px"})
+          .animate({opacity: 0.5});
+        });
+      });
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <button type="button">Start Animasi</button>
+    <div class="box">
+
+    </div>
+  </body>
+</html>

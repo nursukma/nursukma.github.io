@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styleslide.css">
+    <script src="jquery-3.5.1.js" charset="utf-8"></script>
+    <script>
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#kotak2").slideToggle("slow");
+        });
+      });
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <div id="flip">
+      Klik untuk efek slide
+    </div>
+    <div id="kotak2">
+      Selamat Pagi
+    </div>
+  </body>
+</html>
